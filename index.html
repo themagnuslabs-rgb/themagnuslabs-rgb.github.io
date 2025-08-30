@@ -356,7 +356,7 @@
      
 
             <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
-              <img src="https://i.ibb.co/1Jt9swRn/Indian-Biryani-Chicken-Tikka-Masala-550x440-20250822045826-medium-v2.jpg" 
+              <img src="https://i.ibb.co/2YFNygqL/Whats-App-Image-2025-08-31-at-1-58-07-AM.jpg" 
                    width="285" height="285" loading="lazy" alt="" class="w-100">
             </div>
 
@@ -474,7 +474,7 @@
 
           <div class="form reservation-form bg-black-10">
 
-            <form action="" class="form-left">
+            <form id="reservation-form" class="form-left">
 
               <h2 class="headline-1 text-center">Online Reservation</h2>
 
@@ -484,72 +484,62 @@
               </p>
 
               <div class="input-wrapper">
-                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
-
-                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+                <input type="text" name="name" placeholder="Your Name" required class="input-field">
+                <input type="tel" name="phone" placeholder="Phone Number" required class="input-field">
               </div>
 
               <div class="input-wrapper">
-
+                <!-- People -->
                 <div class="icon-wrapper">
                   <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-
-                  <select name="person" class="input-field">
-                    <option value="1-person">1 Person</option>
-                    <option value="2-person">2 Person</option>
-                    <option value="3-person">3 Person</option>
-                    <option value="4-person">4 Person</option>
-                    <option value="5-person">5 Person</option>
-                    <option value="6-person">6 Person</option>
-                    <option value="7-person">7 Person</option>
+                  <select name="people" class="input-field" required>
+                    <option value="1 Person">1 Person</option>
+                    <option value="2 People">2 People</option>
+                    <option value="3 People">3 People</option>
+                    <option value="4 People">4 People</option>
+                    <option value="5 People">5 People</option>
+                    <option value="6 People">6 People</option>
+                    <option value="7 People">7 People</option>
                   </select>
-
-                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
 
+                <!-- Date -->
                 <div class="icon-wrapper">
                   <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
-
-                  <input type="date" name="reservation-date" class="input-field">
-
-                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  <input type="date" name="reservation_date" class="input-field" required>
                 </div>
 
+                <!-- Time -->
                 <div class="icon-wrapper">
                   <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                  <select name="person" class="input-field">
-                    <option value="08:00am">08 : 00 am</option>
-                    <option value="09:00am">09 : 00 am</option>
-                    <option value="010:00am">10 : 00 am</option>
-                    <option value="011:00am">11 : 00 am</option>
-                    <option value="012:00am">12 : 00 am</option>
-                    <option value="01:00pm">01 : 00 pm</option>
-                    <option value="02:00pm">02 : 00 pm</option>
-                    <option value="03:00pm">03 : 00 pm</option>
-                    <option value="04:00pm">04 : 00 pm</option>
-                    <option value="05:00pm">05 : 00 pm</option>
-                    <option value="06:00pm">06 : 00 pm</option>
-                    <option value="07:00pm">07 : 00 pm</option>
-                    <option value="08:00pm">08 : 00 pm</option>
-                    <option value="09:00pm">09 : 00 pm</option>
-                    <option value="10:00pm">10 : 00 pm</option>
+                  <select name="reservation_time" class="input-field" required>
+                    <option value="08:00am">08:00 am</option>
+                    <option value="09:00am">09:00 am</option>
+                    <option value="10:00am">10:00 am</option>
+                    <option value="11:00am">11:00 am</option>
+                    <option value="12:00pm">12:00 pm</option>
+                    <option value="01:00pm">01:00 pm</option>
+                    <option value="02:00pm">02:00 pm</option>
+                    <option value="03:00pm">03:00 pm</option>
+                    <option value="04:00pm">04:00 pm</option>
+                    <option value="05:00pm">05:00 pm</option>
+                    <option value="06:00pm">06:00 pm</option>
+                    <option value="07:00pm">07:00 pm</option>
+                    <option value="08:00pm">08:00 pm</option>
+                    <option value="09:00pm">09:00 pm</option>
+                    <option value="10:00pm">10:00 pm</option>
                   </select>
-
-                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
-
               </div>
 
-              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+              <textarea name="message" placeholder="Message" class="input-field"></textarea>
 
               <button type="submit" class="btn btn-secondary">
                 <span class="text text-1">Book A Table</span>
-
                 <span class="text text-2" aria-hidden="true">Book A Table</span>
               </button>
-
             </form>
+
 
             <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
 
@@ -720,7 +710,7 @@
               <div class="event-card has-before hover:shine">
 
                 <div class="card-banner img-holder" style="--width: 350; --height: 450;">
-                  <img src="https://i.ibb.co/Lz2tWRr0/Whats-App-Image-2025-08-01-at-21-06-31-0a53a76f.jpg" width="350" height="450" loading="lazy"
+                  <img src="https://i.ibb.co/1Jt9swRn/Indian-Biryani-Chicken-Tikka-Masala-550x440-20250822045826-medium-v2.jpg" width="350" height="450" loading="lazy"
                     alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
 
                 
@@ -902,6 +892,31 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    const form = document.querySelector("form");
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+
+      fetch("https://script.google.com/macros/s/AKfycbwKw2rcHWO1-av-a5_aG5PSsxqXC7JHAVcbcIjTIDq2EN2mp7a7yDyRx3BAhKtAB4_y/exec", {
+        method: "POST",
+        body: JSON.stringify({
+          name: form.name.value,
+          phone: form.phone.value,
+          people: form.people.value,
+          date: form.reservation_date.value,
+          time: form.reservation_time.value,
+          message: form.message.value
+        })
+      }).then(res => {
+        alert("✅ Booking received! Please call us at 02 4074 6151 to confirm.");
+        form.reset();
+      }).catch(err => {
+        alert("❌ Something went wrong. Please try again.");
+      });
+    });
+  </script>
+
 
 </body>
 
